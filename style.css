@@ -1,0 +1,821 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    /* border: none; */
+    font: inherit;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+.mount{
+    position: relative;
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    z-index: 2;
+    color: white;
+}
+
+.mount_img img{
+    width: 100%;
+    height: 900px;
+    object-fit: fill;
+}
+
+.mount_img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 900px;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.logo_duo{
+    display: flex;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+
+.logo{
+    margin-right: 350px;
+    margin-top: -25px;
+    margin-left: -401px;
+}
+
+.home p{
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+.home{
+    display: flex;
+}
+
+.unique{
+    margin-top: 20%;
+    text-align: center;
+}
+
+.unique h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.unique h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.unique p{
+    font-size: 12px;
+}
+
+.mount button{
+    margin-top: 40px;
+    background: rgb(165, 141, 100);
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.web{
+    background: white;
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.web div{
+    margin-top: 40px;
+    padding: 40px;
+    text-align: center;
+}
+
+.app{
+    margin-left: 150px;
+}
+
+.web i{
+    font-size: 30px;
+    color: #c7a17b;
+}
+
+.web h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.web p{
+    margin-bottom: 5px;
+}
+
+.gradient-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to left, rgb(92, 50, 0), black);
+}
+
+.realization{
+    padding-top: 30px;
+    background: rgba(138, 90, 0, 0.055);
+    width: 100%;
+    height: 800PX;
+}
+
+
+.ldeas h2{
+    
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.ldeas p{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(165, 165, 165);
+}
+
+.ldeas_p{
+    margin-bottom: 60px;
+}
+
+.browsers{
+    margin-left: 18%;
+    margin-bottom: -5px;
+}
+
+.gradient-box_h3{
+    font-size: 30px;
+    color: rgb(146, 117, 64);
+}
+
+.gradient-box h3{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.gradient-box_p{
+    color: rgb(165, 165, 165);
+    font-size: 20px;
+}
+
+.gradient-box div{
+    margin-top: 45px;
+    margin-left: 380px;
+}
+
+.gradient-box button{
+    margin-top: 40px;
+    background: rgb(165, 141, 100);
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    margin-left: 400px;
+}
+
+.heading{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.heading h2{
+    margin-bottom: 20px;
+}
+
+.heading p{
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.filter-buttons {
+    justify-content: center;
+}
+
+.filter-buttons{
+    display: flex;
+}
+
+.filter-buttons button{
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid rgb(231, 231, 231); 
+    color: rgb(131, 131, 131);
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.filter-buttons .active{
+    background-color: rgb(165, 141, 100); 
+    color: rgb(255, 255, 255); 
+}
+
+.filter-buttons button:hover {
+    background-color: rgb(165, 141, 100); 
+    color: rgb(255, 255, 255); 
+}
+
+.projects{
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center; 
+}
+
+
+
+.project1 img{
+    width: 350px;
+    height: 240px;
+    transition: opacity 0.3s ease;
+}
+
+.project{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin: 20px; 
+    width: 350px; 
+    height: 330px; 
+    position: relative; 
+    overflow: hidden; 
+    transition: background-color 0.3s ease; 
+}
+
+.project {
+    position: relative; 
+    overflow: hidden; 
+    transition: background-color 0.3s ease; 
+  }
+  
+
+
+.project1{
+    position: relative; 
+    overflow: hidden; 
+    transition: background-color 0.3s ease; 
+    width: 350px;
+    height: 330px;
+    margin-top: 40px;
+}
+
+.project1 p {
+    top: 80%;
+    color: rgb(165, 141, 100); 
+    font-size: 16px;
+    position: absolute; 
+    left: 10px;
+    margin: 0;
+    transition: color 0.3s ease; 
+    z-index: 2; 
+  }
+  
+  .project1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); 
+    transition: background-color 0.3s ease; 
+    z-index: 1; 
+  }
+  
+  .project1:hover::before {
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  
+  .project1:hover img {
+    opacity: 0.7; 
+  }
+  
+  .project1:hover p {
+    color: white; 
+  }
+  
+  .project1:hover em {
+    color: rgb(165, 141, 100); 
+  }
+
+  .project1 em{
+    position: absolute;
+    left: 10px;
+    top: 86%;
+    z-index: 2;
+    font-size: 13px;
+  }
+
+  .project1:hover .project2{
+    width: 400px;
+    margin-bottom: 10px;
+    height: 100px;
+    background-color: rgb(55, 47, 45);
+    transition: background-color 1s ease;
+  }
+
+  .project img {
+    width: 350px;
+    height: 240px;
+    transition: opacity 0.3s ease;
+}
+
+.project {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 350px;
+    height: 330px;
+    position: relative; 
+    overflow: hidden; 
+    transition: background-color 0.3s ease; 
+}
+
+.project p {
+    top: 80%;
+    color: rgb(165, 141, 100); 
+    font-size: 16px;
+    position: absolute; 
+    left: 10px;
+    margin: 0;
+    transition: color 0.3s ease; 
+    z-index: 2; 
+}
+
+.project::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); 
+    transition: background-color 0.3s ease; 
+    z-index: 1; 
+}
+
+.project:hover::before {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.project:hover img {
+    opacity: 0.7; 
+}
+
+.project:hover p {
+    color: white; 
+}
+
+.project:hover em {
+    color: rgb(165, 141, 100);
+}
+
+.project em {
+    position: absolute;
+    left: 10px;
+    top: 86%;
+    z-index: 2;
+    font-size: 13px;
+}
+
+.delete {
+    display: none;
+}
+
+.center{
+    justify-content: center;
+}
+
+.project:hover .project2 {
+    width: 400px; 
+    margin-bottom: 10px;
+    height: 100px; 
+    background-color: rgb(55, 47, 45); 
+    transition: background-color 1s ease; 
+}
+
+.load-more{
+    margin-top: 40px;
+    background: rgb(165, 141, 100);
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    width: 170px;
+    height: 50px;
+    color: white;
+    margin-left: 45%;
+}
+
+
+.waxom_video{
+    margin-top: 90px;
+    width: 100%;
+    height: 700px;
+}
+  
+
+.block {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding: 20px;
+    position: relative;
+}
+.image-container {
+    margin-left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.image-container img {
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    width: 400px;
+    height: 550px;
+}
+.text-content {
+    position: absolute;
+    left: 870px;
+    top: 100px;
+    text-align: left;
+
+}
+.text-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+.text-content p {
+    color: #888888;
+    line-height: 1.6;
+}
+.text-content_p{
+    margin-bottom: 20px;
+}
+.bullets {
+    margin-left: 30px;
+    list-style: none;
+    padding-left: 0;
+}
+.bullets li {
+    display: flex;
+    align-items: center;
+    color: #b08e6d;
+    margin-bottom: 10px;
+}
+.bullets li:before {
+    content: '▶';
+    margin-right: 10px;
+}
+.stats {
+    background: linear-gradient(to left, rgb(74,50,38), rgb(15, 12, 11));
+    display: flex;
+    background-color: #3a2d24;
+    color: #b08e6d;
+    padding: 20px 0;
+    width: 100%;
+    height: 300px;
+}
+.stats div {
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 100px;
+}
+.stats div h3 {
+    margin: 0;
+    color: white;
+    font-size: 50px;
+}
+.stats div p {
+    margin: 5px 0 0;
+    margin-top: 10px;
+}
+
+.stats .div_h3{
+    margin-left: 400px;
+}
+
+
+.cover-image{
+    width: 280px;
+    height: 220px;
+}
+
+.wrapper {
+    justify-content: center;
+    display: flex; /* Flexbox для выравнивания блоков */
+    gap: 20px; /* Промежутки между блоками */
+    padding: 20px;
+}
+
+.cover {
+    gap: 40px;
+    width: 370px; /* Ширина каждого блока */
+
+    position: relative; /* Добавляем относительное позиционирование для родительского блока */
+}
+
+.cover-image {
+    width: 370px;
+    height: 270px;
+}
+
+.date-box {
+    position: absolute; /* Абсолютное позиционирование */
+    top: 15px;
+    left: 15px;
+    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон */
+    color: white;
+    width: 60px; /* Ширина квадрата */
+    height: 60px; /* Высота квадрата */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Центрирование текста */
+}
+
+.day {
+    font-size: 24px; /* Увеличение размера шрифта для дня */
+    background: #292929;
+    width: 100%;
+    height: 100%;
+}
+
+.month {
+    font-size: 12px; /* Уменьшение размера шрифта для месяца */
+    background: #181818;
+    width: 100%;
+    height: 100%;
+}
+
+.text-block {
+    margin-top: 15px; /* Отступ сверху для текстового блока */
+    z-index: 2;
+    position: relative;
+    margin-left: 20px;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px; /* Уменьшенный отступ снизу */
+}
+
+.read-more {
+    font-size: 14px;
+    color: #b08e6d;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.text-block p{
+    margin-top: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 380px;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный цвет */
+    opacity: 0; /* Изначально скрываем слой */
+    transition: opacity 0.3s ease; /* Плавный переход */
+    z-index: 1; /* Слой затемнения находится ниже текста */
+}
+
+.cover:hover .overlay {
+    opacity: 1; /* Показываем слой затемнения при наведении */
+}
+
+.cover:hover .text-block .title{
+    color: #b08e6d;/* Замените на желаемый цвет текста */
+    transition: color 0.3s ease; /* Плавный переход цвета */
+}
+
+
+.cover:hover .text-block .description{
+    color: white; /* Замените на желаемый цвет текста */
+    transition: color 0.3s ease; /* Плавный переход цвета */
+}
+
+
+.cover:hover .text-block {
+    background-color: #292929; /* Коричневый цвет для текстового блока */
+    width: 370px;
+    height: 110px;
+    right: 0px;
+    top: 255px;
+    position: absolute;
+}
+
+.cover:hover .text-block .title{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.cover:hover .text-block .description{
+    margin-left: 20px;
+}
+
+.cover:hover .text-block .read-more{
+    margin-left: 20px;
+}
+
+.cover:hover .date-box .day{
+    background-color: #b08e6d; /* Оранжевый цвет для блока с датой */
+    
+}
+
+.cover:hover .date-box .month{
+    background-color: #c7a17b; /* Оранжевый цвет для блока с датой */
+    
+}
+
+.recent{
+    padding: 80px;
+}
+
+.posts{
+    text-align: center;
+}
+
+.posts h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.posts p{
+    color: rgb(161, 161, 161);
+    margin-bottom: 10px;
+}
+
+.img_scall{
+margin-left: -7px;
+width: 1910px;
+
+}
+
+.cont{
+    display: flex;
+    height: 500px;
+    background: #252525;
+    color: white;
+    justify-content: center;
+    margin-top: -4px;
+}
+
+.about-section{
+    margin-top: 80px;
+    width: 400px;
+    height: 300px;
+}
+
+.about-text{
+    color: #4a4a4a;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+.recent-posts{
+    margin-top: 80px;
+    width: 270px;
+    height: 350px;
+}
+
+.posts-title{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.post-text{
+    color: #4a4a4a;
+}
+
+.post-text2{
+    color: #b08e6d;
+    margin-top: 5px;
+}
+
+.post-date{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #404040;
+}
+
+.post-date2{
+    color: white;
+    margin-top: 30px;
+}
+
+.recent-posts p{
+    font-size: 13px;
+}
+
+.twitter-widget{
+    font-size: 14px;
+    margin-top: 80px;
+    width: 270px;
+    height: 350px;
+    margin-left: 30px
+}
+
+.widget-title{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.tweet{
+    margin-top: 25px;
+    color: #4a4a4a;
+}
+
+.tweet-time{
+    margin-top: 8px;
+}
+
+.dribbble-img{
+    width: 130px;
+    height: 100px;
+}
+
+.widget-title2{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.dribbble-widget{
+    margin-left: 20px;
+}
+
+.twitter-widget span{
+    color: rgb(0, 110, 255);
+}
+
+.box{
+    background: #171717;
+    display: flex;
+    gap: 450px;
+    height: 100px;
+}
+
+.box p{
+    color: #4a4a4a;
+}
+
+.box span{
+    color: rgb(149, 149, 149)
+}
+
+.policy{
+    font-size: 13px;
+    margin-top: 47px;
+    margin-left: 380px;
+    display: flex;
+}
+
+.policy_faq{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.policy_text{
+    margin-left: 10px;
+}
+
+.only{
+    font-size: 13px;
+    display: flex;
+    margin-top: 47px;
+}
+
+.only p{
+    margin-left: 10px;
+}
+
