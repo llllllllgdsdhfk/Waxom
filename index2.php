@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>php</h1>
+    <div class="lolol">lolol</div>
     <?php
     for ($i=0; $i < 6; $i++) { 
         echo "<h$i> title $i</h$i>";
