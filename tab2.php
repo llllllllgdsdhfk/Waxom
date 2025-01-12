@@ -39,10 +39,10 @@
         <a href="tab2.php" class="<?php if ('tab2.php' == 'tab2.php') {?>
                 button active
            <?php } ?>">All</a>
-        <a href="one_category.php?category=Photography,Nature" class="button">Web Design</a>
-        <a href="one_category.php?category=Graphic_Design,Mock-Up" class="button">Mobile App</a>
-        <a href="one_category.php?category=Photography,Holiday" class="button">Illustration</a>
-        <a href="one_category.php?category=Photography" class="button">Photography</a>
+        <a href="one_category.php?class=web_design" class="button">Web Design</a>
+        <a href="one_category.php?class=mobile_app" class="button">Mobile App</a>
+        <a href="one_category.php?class=illustration" class="button">Illustration</a>
+        <a href="one_category.php?class=photography" class="button">Photography</a>
     </div>
     <div class="projects">
 

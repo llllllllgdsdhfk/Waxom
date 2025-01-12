@@ -8,6 +8,11 @@
 
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Button Styling */
 .filter-buttons .button {
     text-decoration: none;
@@ -30,7 +35,7 @@
 
 /* Active Button Styling */
 .filter-buttons .button.active {
-    background-color: #ff6347;
+    background: rgb(165, 141, 100);
     transform: scale(1.05);
 }
 

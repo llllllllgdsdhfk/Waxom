@@ -1,10 +1,5 @@
 <?php
-$host = "localhost";
-$login = "root";
-$password = "";
-$diviname = "waxom";
-$conect = new mysqli($host, $login, $password, $diviname);
-
+include 'components/database.php';
 ?>
 
 <!DOCTYPE html>
@@ -310,19 +305,14 @@ $conect = new mysqli($host, $login, $password, $diviname);
                 for ($i = 0; $i < $resolt->num_rows; $i++) {
                     $roo = $resolt->fetch_assoc();
                    
-            ?>
-                    <a href="one_project.php?id=<?= $roo["id"] ?>" class="project <?php echo  $roo["class"] ?>">
-                        <img src="<?= $roo["img"] ?>" alt="<?= $roo[$i]["alt"] ?>">
-                        <div class="project2">
-                            <p><?= $roo["title"] ?></p>
-                            <em><?= $roo["category"] ?></em>
-                        </div>
-                    </a>
-            <?php }
+            include 'components/cards_projects.php';
+
+                    
+           }
             }
             ?>
         </div>
-        <a href="http://localhost/Waxom/tab2.php">click</a>
+        <a href="http://localhost/Waxom/one_category.php?class=">click</a>
         <button class="load-more" onclick="cards(this)">LOAD MORE</button>
         <div>
             <img src="Знімок екрана 2024-10-10 021718.png" alt="" class="waxom_video">
